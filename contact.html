@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+	
 	<style>
 		body {margin:0;}
 
@@ -34,7 +34,20 @@
 
 		.main {
 			padding: 10px;
-			margin-top: 0px;
+			margin-top: 10px;
+			display: flex;
+			flex-wrap: wrap;
+			font-size: 20px;
+			justify-content: space-evenly;
+		}
+		
+		.main2 {
+			padding: 10px;
+			margin-top: 10px;
+			display: flex;
+			flex-wrap: wrap;
+			font-size: 20px;
+			justify-content: space-evenly;
 		}
 
 		.title {
@@ -92,7 +105,23 @@
 		.dropdown:hover .dropdown-content {
 			display: block;
 		}
-
+		
+		.phone {
+		flex: auto;
+		}
+		
+		.email {
+		flex: auto;
+		}
+		
+		.operatinghours {
+		flex: auto;
+		}
+		
+		.address {
+		flex: auto;
+		}
+		
 	</style>
 </head>
 <body style="background-color:rgb(240, 240, 240);">
@@ -112,20 +141,45 @@
 	</div>
 
 	<div class="title">
-		<h1> PIXEL PRINT </h1>
+		<h1> Get in touch : </h1>
 	</div>
 
 	<div class="main">
-
-		<h2>Welcome to the world of 3D Printing !</h2>
-
-			<img src="img/img2.jpg" alt="3DPWallpaper" width="100%" height="100%">
-
-			<p>BLA BLA BLA 3D PRINTING INTRODUCTION STUFF</p>
-			<p>BLA BLA BLA 3D PRINTING INTRODUCTION STUFF</p>
-			<p>BLA BLA BLA 3D PRINTING INTRODUCTION STUFF</p>
-			<p>BLA BLA BLA 3D PRINTING INTRODUCTION STUFF</p>
-
+		<div class="address">
+			<p> Find Us
+				<a href="https://www.google.com.my/maps" target="_blank"> <span class="glyphicon glyphicon-map-marker"></span> </a> <br>
+				PIXEL PRINT <br>
+				ABC, JALAN 123, <br>
+				TAMAN ALPHA BETA OMEGA, <br>
+				55555, MALAYSIA
+			</p>
+		</div>
+		
+		<div class="operatinghours">
+			<p> Operating Hours <span class="glyphicon glyphicon-time"></span> <br>
+			Monday - Friday : 8.30am - 5.30pm <br>
+			Saturday and Sunday : 10.00am - 5.00pm <br>
+			Public Holidays : Off
+			</p>
+		</div>
+	</div>
+		
+	<div class="main2">
+		<div class="email">
+			<p> 
+				<a href="mailto:qingzhe1995@gmail.com" class="btn btn-info btn-lg">
+					<span class="glyphicon glyphicon-envelope"></span> Mail
+				</a>
+				<br> qingzhe1995@gmail.com
+			</p> 
+		</div>
+		
+		<div class="phone">
+			<p>
+				<span class="glyphicon glyphicon-phone"></span> <br>
+				+6 012 615 7125 <br>
+			</pr>
+		</div>
 	</div>
 
 </body>
